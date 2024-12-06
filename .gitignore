@@ -123,6 +123,7 @@ celerybeat.pid
 
 # Environments
 .env
+|.env.sample
 .venv
 env/
 venv/
@@ -150,6 +151,9 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
+
+# MacOS files
+**/.DS_Store
 
 # Cython debug symbols
 cython_debug/
